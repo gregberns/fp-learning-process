@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "4ebade48d093dc3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "50710cae8300e9db",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ReadMe.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6769717575797438",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e8300975b7e77ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d993330b0e56e63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b3e22661e115d392",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "38c0d03699624b56",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf15c35a705d128b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20e74a065458302c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ReadMe.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "50710cae8300e9db",
+  "lastOpenFiles": [
+    "ReadMe.md",
+    "Learning Level/Ladder of Functional Programming.md",
+    "Learning Level/3 - Competent.md",
+    "Learning Level/2 - Advanced Beginner.md",
+    "Learning Level/4 - Proficient.md",
+    "Learning Level/5 - Expert.md",
+    "Learning Level/1 - Novice Level.md",
+    "Excercises/Higher Order Functions.md",
+    "Concepts/Lenses.md",
+    "Concepts/Pipe Operator.md"
+  ]
+}
