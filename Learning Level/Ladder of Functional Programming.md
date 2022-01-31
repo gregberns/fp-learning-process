@@ -11,7 +11,7 @@ This training will use the [Standardized Ladder of Functional Programming](https
 
 There are some valid criticisms of the ladder. First, the terms used are focused on the Haskell eco system and typed functional programming languages, not functional programming in general. Second, especially at the mid and higher levels, there are concepts that may be of less value based on the situation.
 
-Regardless of the criticisms, there is value that can be derrived, specifically additional ideas to explore and understand.
+Regardless of the criticisms, there is value that can be derived, specifically additional ideas to explore and understand.
 
 > more seriously, this to me reflects a broken value system that prizes fancy types over everything else.
 > - Yaron (Ron) Minsky - [Source](https://twitter.com/yminsky/status/804303884432838656?s=20&t=R_ZAPLOlH0Y8b1B5RtFoXQ)

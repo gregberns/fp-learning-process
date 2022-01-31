@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ReadMe.md",
-            "mode": "source"
+            "file": "Concepts/Monad.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,14 +68,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReadMe.md",
+                "file": "Concepts/Monad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -87,15 +87,15 @@
   },
   "active": "50710cae8300e9db",
   "lastOpenFiles": [
-    "ReadMe.md",
-    "Learning Level/Ladder of Functional Programming.md",
-    "Learning Level/3 - Competent.md",
-    "Learning Level/2 - Advanced Beginner.md",
-    "Learning Level/4 - Proficient.md",
-    "Learning Level/5 - Expert.md",
-    "Learning Level/1 - Novice Level.md",
-    "Excercises/Higher Order Functions.md",
+    "Concepts/Monad.md",
+    "Concepts/Higher Order Function.md",
+    "Concepts/Algebraic Data Type.md",
+    "Concepts/Algebra of Algebraic Data Types.md",
+    "Concepts/Sum Type.md",
+    "Concepts/Result Type.md",
+    "Concepts/Product Type.md",
+    "Concepts/Pipe Operator.md",
     "Concepts/Lenses.md",
-    "Concepts/Pipe Operator.md"
+    "Learning Level/1 - Novice Level.md"
   ]
 }
