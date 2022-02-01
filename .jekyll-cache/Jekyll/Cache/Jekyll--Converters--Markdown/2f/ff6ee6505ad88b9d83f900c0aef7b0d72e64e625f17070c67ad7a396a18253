@@ -1,0 +1,32 @@
+I"j<h1 id="monad">Monad</h1>
+
+<p>A monad exists, generally when it implements <code class="language-plaintext highlighter-rouge">bind</code> and either <code class="language-plaintext highlighter-rouge">return</code> or <code class="language-plaintext highlighter-rouge">pure</code> (we’ll use <code class="language-plaintext highlighter-rouge">pure</code>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bind :: m a -&gt; (a -&gt; m b) -&gt; m b
+pure :: a -&gt; m a
+</code></pre></div></div>
+
+<p>Monad and <a class="internal-link" href="/functor">Functor</a> type signatures are very similar, the significant difference is that the function passed in returns <code class="language-plaintext highlighter-rouge">b</code> in Functor’s case an <code class="language-plaintext highlighter-rouge">m b</code> in Monads case.</p>
+
+<p>Lets look at an example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type Option = 
+	| Some(a)
+	| None
+	
+let bind: Option(a) =&gt; (a =&gt; Option(b)) =&gt; Option(b) = 
+	m =&gt; f =&gt;
+		fun
+		| Some(a) =&gt; f(a)
+		| None =&gt; None
+		
+let pure: a =&gt; Option(a) =
+	a =&gt; Some(a)
+		
+let a = bind(Some(1), x =&gt; pure(x + 1))
+// output: Some(2)
+
+let b = bind(None, x =&gt; pure(x + 1))
+// output: None
+</code></pre></div></div>
+:ET

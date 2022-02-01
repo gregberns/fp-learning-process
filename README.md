@@ -16,3 +16,4 @@ There are plenty of blog articles with personal opinions around these concepts, 
 But, this methodology will use less prose to explain concepts. Instead examples will be used to explain the concepts, to build an intuition around how they may be applied.
 
 Additionally, examples will focus on usage in a 'business' or 'enterprise' setting. CS concepts that 'self-taught' developers will be less familiar with, will be used sparingly.
+

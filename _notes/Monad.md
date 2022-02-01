@@ -1,3 +1,6 @@
+---
+---
+
 # Monad
 
 A monad exists, generally when it implements `bind` and either `return` or `pure` (we'll use `pure`):

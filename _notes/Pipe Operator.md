@@ -1,3 +1,6 @@
+---
+---
+
 # Pipe Operator
 
 The operator applies the left value to the function on the right as the last parameter.

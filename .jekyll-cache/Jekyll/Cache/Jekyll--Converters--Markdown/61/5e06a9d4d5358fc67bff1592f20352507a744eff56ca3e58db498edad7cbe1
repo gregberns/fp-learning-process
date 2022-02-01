@@ -1,0 +1,28 @@
+I"�<h1 id="sum-type">Sum Type</h1>
+
+<p>A Sum Type is an <a class="internal-link" href="/algebraic-data-type">Algebraic Data Type</a> that can be used to represent “this or that” type of structure. “Or” is the key word - the type only contains one of the values.</p>
+
+<p>For example, the <code class="language-plaintext highlighter-rouge">Option</code> or <code class="language-plaintext highlighter-rouge">Maybe</code> type can represent “Something Or Nothing”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type Option =
+	| Some(a)
+	| None
+
+let a = Some("foo")
+let b = None
+
+</code></pre></div></div>
+
+<p>Another example is the <code class="language-plaintext highlighter-rouge">Either</code> type, which can represent <code class="language-plaintext highlighter-rouge">One thing Or Another thing</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type Either =
+	| Right(a)
+	| Left(b)
+
+let a = Right(1)
+let b = Left("foo")
+</code></pre></div></div>
+
+<p>Option can be represented with Either (unit as the left or right), but not the other way around.</p>
+
+:ET

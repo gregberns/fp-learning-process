@@ -1,3 +1,6 @@
+---
+---
+
 ## Counting the Values in a Type 
 
 Possible values in a type

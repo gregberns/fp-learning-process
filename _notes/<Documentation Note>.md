@@ -1,3 +1,6 @@
+---
+---
+
 #TODO
 
 **tl;dr:** Documentation notes are notes about the note-taking-sytem or site. Think of them as "meta-notes".

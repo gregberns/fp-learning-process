@@ -1,0 +1,23 @@
+I"�<h1 id="functional-programming---learning-progression">Functional Programming - Learning Progression</h1>
+
+<p>There are numerous resources and paths to learn functional programming. The objective of this process will specifically target learning terminology and fundamentals that will hopefully provide a base of knowledge that you can build on.</p>
+
+<p>This will attempt to target two audiences:</p>
+<ul>
+  <li>Developers with a background in programming, but little functional programming experience</li>
+  <li>Developers that have a good handle on FP in daily activities, but want to improve their ‘academic’ basis of understanding around terminology and concepts
+    <ul>
+      <li>‘Level you up’ with stronger fundamentals</li>
+      <li>Explore additional concepts and types you may not have seen before</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="learning-style">Learning Style</h2>
+
+<p>There are plenty of blog articles with personal opinions around these concepts, please search out these articles to explore further.</p>
+
+<p>But, this methodology will use less prose to explain concepts. Instead examples will be used to explain the concepts, to build an intuition around how they may be applied.</p>
+
+<p>Additionally, examples will focus on usage in a ‘business’ or ‘enterprise’ setting. CS concepts that ‘self-taught’ developers will be less familiar with, will be used sparingly.</p>
+:ET

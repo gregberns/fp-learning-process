@@ -1,3 +1,6 @@
+---
+---
+
 #	Functor
 
 Haskell Functor signature: `Functor f => (a -> b) -> f a -> f b`

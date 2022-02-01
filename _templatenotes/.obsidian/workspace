@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "1cec09ad34a3b6d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f379b8eda4e71fa5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "hayden's note.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ecdf18dcfa4426c",
+    "type": "split",
+    "children": [
+      {
+        "id": "814dd48aa09e5807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1644e951c32c2a39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "02f1df335deff7e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "331e55a51778b906",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfcac24a47d82d4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22182b6e191ea85d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "hayden's note.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f379b8eda4e71fa5",
+  "lastOpenFiles": [
+    "hayden's note.md",
+    "move your body every day.md",
+    "consistency is key.md",
+    "_staging/Example staged note.md"
+  ]
+}

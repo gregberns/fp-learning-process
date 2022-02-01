@@ -1,3 +1,6 @@
+---
+---
+
 # Result Type
 
 `Result` is used to represent "Either a thing succeded with a value or failed with an error".

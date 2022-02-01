@@ -1,3 +1,6 @@
+---
+---
+
 # Sum Type
 
 A Sum Type is an [[Algebraic Data Type]] that can be used to represent "this or that" type of structure. "Or" is the key word - the type only contains one of the values.
