@@ -1,4 +1,8 @@
-# Novice Level
+---
+title: 1 - Novice Level
+---
+[[(Learning Level)]],
+
 
 ### CONCEPTS
 * Immutable Data

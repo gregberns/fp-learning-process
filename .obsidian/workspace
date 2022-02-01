@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50710cae8300e9db",
+        "id": "0ed310b767ebbd5e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Concepts/Monad.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concepts/Monad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,17 +81,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "50710cae8300e9db",
+  "active": "0ed310b767ebbd5e",
   "lastOpenFiles": [
-    "Concepts/Monad.md",
-    "Concepts/Higher Order Function.md",
-    "Concepts/Algebraic Data Type.md",
-    "Concepts/Algebra of Algebraic Data Types.md",
-    "Concepts/Sum Type.md",
-    "Concepts/Result Type.md",
-    "Concepts/Product Type.md",
-    "Concepts/Pipe Operator.md",
-    "Concepts/Lenses.md",
-    "Learning Level/1 - Novice Level.md"
+    "<Note Naming Conventions>.md",
+    "<Documentation Note>.md",
+    "<ROOT>.md",
+    "README.md",
+    "<Concept Note>.md",
+    "(TODO).md",
+    "<Interface Note Template>.md",
+    "<Interface Note>.md",
+    "<MOC Note>.md",
+    "<Proposition Note>.md"
   ]
 }

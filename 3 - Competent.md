@@ -1,4 +1,7 @@
-## COMPETENT
+---
+title: 3 - Competent
+---
+[[(Learning Level)]],
 
 ### CONCEPTS
 * Generalized Algebraic Data Types

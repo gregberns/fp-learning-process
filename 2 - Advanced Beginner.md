@@ -1,4 +1,8 @@
-## ADVANCED BEGINNER
+---
+title: 2 - Advanced Beginner
+---
+[[(Learning Level)]],
+
 
 ### CONCEPTS
 * Algebraic Data Types

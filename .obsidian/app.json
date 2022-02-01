@@ -1,4 +1,8 @@
 {
   "tabSize": 2,
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "vimMode": true,
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }
