@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "D.Template Note.md",
+            "file": "I.Learning Level.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D.Template Note.md",
+                "file": "I.Learning Level.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "657c0c3d808698ca",
   "lastOpenFiles": [
+    "I.Learning Level.md",
+    "Higher Order Function.md",
+    "I.Exercise.md",
+    "Functor.md",
+    "D.Proposition Note.md",
+    "D.MOC Note.md",
     "D.Template Note.md",
     "D.ROOT.md",
     "D.Concept Note.md",
-    "D.Proposition Note.md",
-    "D.Note Naming Conventions.md",
-    "D.MOC Note.md",
-    "Algebra of Algebraic Data Types.md",
-    "5 - Expert.md",
-    "4 - Proficient.md",
-    "2 - Advanced Beginner.md"
+    "D.Note Naming Conventions.md"
   ]
 }

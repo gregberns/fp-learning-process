@@ -1,0 +1,20 @@
+I"„<p><a class="internal-link" href="/i-learning-level">I.Learning Level</a>,</p>
+
+<h3 id="concepts">CONCEPTS</h3>
+<ul>
+  <li>Immutable Data</li>
+  <li>Second-Order (Higher Order) Functions</li>
+  <li>Constructing &amp; Destructuring</li>
+  <li>Function Composition</li>
+  <li>First-Class Functions &amp; Lambdas</li>
+</ul>
+
+<h3 id="skills">SKILLS</h3>
+<ul>
+  <li>Use second-order functions (map, filter, fold) on immutable data structures</li>
+  <li>Destructure values to access their components</li>
+  <li>Use data types to represent optionality</li>
+  <li>Read basic type signatures</li>
+  <li>Pass lambdas to second-order functions</li>
+</ul>
+:ET
