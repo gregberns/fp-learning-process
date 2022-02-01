@@ -1,0 +1,15 @@
+I"«<h1 id="pipe-operator">Pipe Operator</h1>
+
+<p>The operator applies the left value to the function on the right as the last parameter.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let add: int =&gt; int =&gt; int = a =&gt; b =&gt; a + b
+
+let five = 3 |&gt; add(2)
+// output: 5
+
+// These expressions are equivalent
+add(2, 3)
+3 |&gt; add(2)
+
+</code></pre></div></div>
+:ET

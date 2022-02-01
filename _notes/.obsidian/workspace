@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "(TODO).md",
+            "file": "D.Template Note.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Programming language",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "(TODO).md",
+                "file": "D.Template Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "657c0c3d808698ca",
   "lastOpenFiles": [
-    "(TODO).md",
-    "<Concept Note>.md",
-    "(Learning Level).md",
-    "<Documentation Note>.md",
-    "<MOC Note>.md",
-    "<Interface Note>.md",
-    "<Interface Note Template>.md",
-    "(External).md",
-    "(Exercise).md",
-    "<Note Naming Conventions>.md"
+    "D.Template Note.md",
+    "D.ROOT.md",
+    "D.Concept Note.md",
+    "D.Proposition Note.md",
+    "D.Note Naming Conventions.md",
+    "D.MOC Note.md",
+    "Algebra of Algebraic Data Types.md",
+    "5 - Expert.md",
+    "4 - Proficient.md",
+    "2 - Advanced Beginner.md"
   ]
 }

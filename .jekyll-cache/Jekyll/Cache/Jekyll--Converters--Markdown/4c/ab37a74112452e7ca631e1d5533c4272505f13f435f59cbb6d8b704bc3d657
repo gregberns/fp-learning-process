@@ -1,0 +1,35 @@
+I"h<p>All notes should have a <code class="language-plaintext highlighter-rouge">*.md</code> file name, where <code class="language-plaintext highlighter-rouge">*</code> is the name of the <code class="language-plaintext highlighter-rouge">title:</code> field in the YAML front-matter. Ex:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">&lt;!-- Note.md --&gt;
+---
+title: Note
+---
+</span>...
+</code></pre></div></div>
+
+<p>Additionally, the naming conventions of specific types of notes are outlined below.</p>
+
+<h2 id="documentation-notes">&lt;Documentation&gt; Notes</h2>
+
+<p>A <a class="internal-link" href="/documentation-note"><Documentation Note="">&lt;/a&gt; should be named and titled `D.*`. Ex: <a class="internal-link" href="/interface-note"><Interface Note="">&lt;/a&gt;</Interface></a></Documentation></a></p>
+
+<h2 id="interface-notes">(Interface) Notes</h2>
+
+<p>An <a class="internal-link" href="/interface-note"><Interface Note="">&lt;/a&gt; should be titled and named with surrounding `()`. Ex: <a class="internal-link" href="/i-todo">I.TODO</a>.</Interface></a></p>
+
+<h2 id="map-of-content-notes">{Map Of Content} Notes</h2>
+
+<p>An <a class="internal-link" href="/moc-note"><MOC Note="">&lt;/a&gt;  should be titled and named with surrounding `{}`.</MOC></a></p>
+
+<h2 id="concept-notes">Concept Notes</h2>
+
+<p>A <a class="internal-link" href="/d-concept-note">D.Concept Note</a> should have each space separated token of the title be capitalized. The title should be a noun phrase.</p>
+
+<p>Ex: <code class="language-plaintext highlighter-rouge">Example Concept Note</code>, <code class="language-plaintext highlighter-rouge">Car</code>, <a class="internal-link" href="/functor">Functor</a></p>
+
+<h2 id="proposition-notes">Proposition notes</h2>
+
+<ul>
+  <li>A <a class="internal-link" href="/proposition-note"><Proposition Note="">&lt;/a&gt; should be titled exactly like a sentence written in the [declarative mood](https://www.vocabulary.com/dictionary/declarative%20mood).</Proposition></a></li>
+  <li>Try to keep the title short and avoid using punctuation.</li>
+</ul>
+:ET

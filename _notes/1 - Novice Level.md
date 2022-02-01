@@ -1,7 +1,7 @@
 ---
 title: 1 - Novice Level
 ---
-[[(Learning Level)]],
+[[I.Learning Level]],
 
 
 ### CONCEPTS

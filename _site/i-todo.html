@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+
+  <link rel="canonical" href="/i-todo" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Used to “tag” notes as being members of a set of notes under construction or in need of editing/revision.">
+
+  <meta property="og:site_name" content="My digital garden">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="/styles.css">
+
+  
+  <meta property="og:description" content="Used to “tag” notes as being members of a set of notes under construction or in need of editing/revision."/>
+  
+
+  
+  <meta property="og:title" content="I.Todo">
+  <meta property="og:type" content="article">
+  
+
+  
+  <meta property="article:published_time" content="2022-02-01T14:54:25-07:00">
+  <meta property="article:author" content="/">
+  
+
+  <meta property="og:url" content="/i-todo" />
+
+  
+
+  <title>
+    
+      I.Todo &mdash; My digital garden
+    
+  </title>
+</head>
+
+  <body>
+    <nav><div>
+    <a class="internal-link" href="/"><b>My digital garden</b></a>
+</div>
+</nav>
+    <div class="wrapper">
+      <main><article>
+  <div>
+    <h1>I.Todo</h1>
+    <time datetime="2022-02-01T14:54:10-07:00">
+      Last updated on February 1, 2022
+      
+    </time>
+  </div>
+
+  <div id="notes-entry-container">
+    <content>
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Used to “tag” notes as being members of a set of notes under construction or in need of editing/revision.</p>
+
+<h2 id="properties">Properties</h2>
+<ul>
+  <li>$n \rightarrow I \implies n \text{ has an internal task}$</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<p>Ex:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Example Note</span>
+<span class="nn">---</span>
+
+This is an example note
+
+<span class="gu">## Implements:</span>
+<span class="p">
+-</span> <span class="nt">&lt;span</span> <span class="na">title=</span><span class="s">'There is no note that matches this link.'</span> <span class="na">class=</span><span class="s">'invalid-link'</span><span class="nt">&gt;</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>[[<span class="nt">&lt;/span&gt;</span>  (Atomic)  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>]]<span class="nt">&lt;/span&gt;&lt;/span&gt;</span>
+<span class="p">-</span> <span class="nt">&lt;span</span> <span class="na">title=</span><span class="s">'There is no note that matches this link.'</span> <span class="na">class=</span><span class="s">'invalid-link'</span><span class="nt">&gt;</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>[[<span class="nt">&lt;/span&gt;</span>  (TODO)  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>]]<span class="nt">&lt;/span&gt;&lt;/span&gt;</span> : Refactor note to be atomic. (It's too long right now)
+<span class="p">-</span> <span class="nt">&lt;span</span> <span class="na">title=</span><span class="s">'There is no note that matches this link.'</span> <span class="na">class=</span><span class="s">'invalid-link'</span><span class="nt">&gt;</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>[[<span class="nt">&lt;/span&gt;</span>  (TODO)  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>]]<span class="nt">&lt;/span&gt;&lt;/span&gt;</span> : Read through and link to 
+
+<span class="gu">## Explication</span>
+
+orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend, quam nec luctus hendrerit, magna dolor sagittis nisi, eu molestie justo lectus a mauris. Mauris at risus at purus porta euismod elementum id massa. Ut id nisl leo. Morbi sodales ultricies fermentum. Nunc malesuada auctor ipsum. Quisque sit amet gravida tortor, ac aliquam risus. Vestibulum vitae congue sem.
+
+Sed sapien nulla, pharetra vitae turpis at, ornare cursus tellus. Curabitur sed pharetra velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam a est velit. Curabitur volutpat augue sit amet est fringilla, nec blandit elit elementum. Sed sem leo, convallis et ipsum sed, ornare eleifend orci. Nunc cursus nunc tincidunt dui commodo semper. Aenean eget metus vehicula, ultricies orci at, ullamcorper nisl. Donec leo urna, rhoncus non lacus ac, vulputate porta massa. Quisque sit amet rhoncus mi. In hac habitasse platea dictumst. Integer vel velit nec sem vulputate euismod. Fusce ultricies auctor leo, facilisis laoreet nisi commodo at. Morbi maximus iaculis convallis.
+</code></pre></div></div>
+
+</body></html>
+
+    </content>
+
+    <side style="font-size: 0.9em">
+      <h3 style="margin-bottom: 1em">Notes mentioning this note</h3>
+      
+      <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">
+      
+        <div class="backlink-box">
+        <a class="internal-link" href="/d-concept-note">D.Concept Note</a><br>
+        <div style="font-size: 0.9em">[[I.Todo]]
+</div>
+        </div>
+      
+        <div class="backlink-box">
+        <a class="internal-link" href="/d-note-naming-conventions">D.Note Naming Conventions</a><br>
+        <div style="font-size: 0.9em">All notes should have a *.md file name, where * is the name of the title: field in the YAML...</div>
+        </div>
+      
+        <div class="backlink-box">
+        <a class="internal-link" href="/d-proposition-note">D.Proposition Note</a><br>
+        <div style="font-size: 0.9em">[[I.Todo]]
+</div>
+        </div>
+      
+        <div class="backlink-box">
+        <a class="internal-link" href="/i-external">I.External</a><br>
+        <div style="font-size: 0.9em">[[I.Todo]] : Define this interface to describe notes that are primarily quotes from or links to external source(s) of information....</div>
+        </div>
+      
+        <div class="backlink-box">
+        <a class="internal-link" href="/t-interface-note-template">T.Interface Note Template</a><br>
+        <div style="font-size: 0.9em">[[I.Todo]] : Create template
+</div>
+        </div>
+      
+      </div>
+      
+    </side>
+  </div>
+</article>
+
+<hr>
+
+<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
+
+<style>
+  .links line {
+    stroke: #ccc;
+    opacity: 0.5;
+  }
+
+  .nodes circle {
+    cursor: pointer;
+    fill: #8b88e6;
+    transition: all 0.15s ease-out;
+  }
+
+  .text text {
+    cursor: pointer;
+    fill: #333;
+    text-shadow: -1px -1px 0 #fafafabb, 1px -1px 0 #fafafabb, -1px 1px 0 #fafafabb, 1px 1px 0 #fafafabb;
+  }
+
+  .nodes [active],
+  .text [active] {
+    cursor: pointer;
+    fill: black;
+  }
+
+  .inactive {
+    opacity: 0.1;
+    transition: all 0.15s ease-out;
+  }
+
+  #graph-wrapper {
+    background: #fcfcfc;
+    border-radius: 4px;
+    height: auto;
+  }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"
+  integrity="sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg=="
+  crossorigin="anonymous"></script>
+
+<div id="graph-wrapper">
+  <script>
+    const MINIMAL_NODE_SIZE = 8;
+    const MAX_NODE_SIZE = 12;
+    const ACTIVE_RADIUS_FACTOR = 1.5;
+    const STROKE = 1;
+    const FONT_SIZE = 16;
+    const TICKS = 200;
+    const FONT_BASELINE = 40;
+    const MAX_LABEL_LENGTH = 50;
+
+    const graphData = {"edges":[{"source":"34504949835","target":"84329862347630644994904818"},{"source":"94214871282704882","target":"84329862347630644994904818"},{"source":"62802240242","target":"84329862347630644994904818"},{"source":"6572654796480751949434392773715544","target":"1757459348124532322"},{"source":"23126717","target":"1757459348124532322"},{"source":"6572654796480751949434392773715544","target":"3833500682890096095179314274"},{"source":"23126717","target":"3833500682890096095179314274"},{"source":"6572654796480751949434392773715544","target":"83015573666932121033188"},{"source":"23126717","target":"83015573666932121033188"},{"source":"3171859189241336363901","target":"83015573666932121033188"},{"source":"6572654796480751949434392773715544","target":"1068095793506"},{"source":"23126717","target":"1068095793506"},{"source":"83015573666932121033188","target":"6572654796480751949434392773715544"},{"source":"23126717","target":"6572654796480751949434392773715544"},{"source":"6572654796480751949434392773715544","target":"3032207320731292987561058"},{"source":"23126717","target":"3032207320731292987561058"},{"source":"6572654796480751949434392773715544","target":"34504949835"},{"source":"38101477","target":"34504949835"},{"source":"18345142772825648959992114848997829892009246","target":"51949802908958"},{"source":"1068095793506","target":"51950688772269"},{"source":"218239678889722749","target":"3171859189241336363901"},{"source":"18213232155907625044478019","target":"3171859189241336363901"},{"source":"340463354585465","target":"3171859189241336363901"},{"source":"17241717145542329","target":"3171859189241336363901"},{"source":"11787051017","target":"3171859189241336363901"},{"source":"1757459348124532322","target":"31617708"},{"source":"6572654796480751949434392773715544","target":"31617708"},{"source":"3032207320731292987561058","target":"31617708"},{"source":"51950688772269","target":"31617708"},{"source":"14205122891733036004613362988882690","target":"31617708"},{"source":"308323337973896838300208371577331325250084","target":"1909000424316900"},{"source":"3171859189241336363901","target":"802799037153734639588396446222664693705405932"},{"source":"11787051017","target":"30465020819196093204290850736405938521563610222"},{"source":"6572654796480751949434392773715544","target":"30465020819196093204290850736405938521563610222"},{"source":"34504949835","target":"62802240242"},{"source":"2783875188712946","target":"62802240242"},{"source":"83015573666932121033188","target":"14205122891733036004613362988882690"}],"nodes":[{"id":"218239678889722749","path":"/1-novice-level","label":"1 - Novice Level"},{"id":"18213232155907625044478019","path":"/2-advanced-beginner","label":"2 - Advanced Beginner"},{"id":"340463354585465","path":"/3-competent","label":"3 - Competent"},{"id":"17241717145542329","path":"/4-proficient","label":"4 - Proficient"},{"id":"11787051017","path":"/5-expert","label":"5 - Expert"},{"id":"308323337973896838300208371577331325250084","path":"/algebra-of-algebraic-data-types","label":"Algebra of algebraic data types"},{"id":"84329862347630644994904818","path":"/algebraic-data-type","label":"Algebraic data type"},{"id":"1757459348124532322","path":"/d-concept-note","label":"D.Concept Note"},{"id":"3833500682890096095179314274","path":"/d-documentation-note","label":"D.Documentation Note"},{"id":"83015573666932121033188","path":"/d-interface-note","label":"D.Interface Notes"},{"id":"1068095793506","path":"/d-moc-note","label":"D.MOC Note"},{"id":"6572654796480751949434392773715544","path":"/d-note-naming-conventions","label":"D.Note Naming Conventions"},{"id":"3032207320731292987561058","path":"/d-proposition-note","label":"D.Proposition Note"},{"id":"23126717","path":"/d-root","label":"D.ROOT"},{"id":"34504949835","path":"/functor","label":"Functor"},{"id":"180633621504200397729992141783","path":"/higher-order-function","label":"Higher order function"},{"id":"18345142772825648959992114848997829892009246","path":"/higher-order-functions-exercise","label":"Higher order functions exercise"},{"id":"51949802908958","path":"/i-exercise","label":"I.Exercise"},{"id":"51950688772269","path":"/i-external","label":"I.External"},{"id":"3171859189241336363901","path":"/i-learning-level","label":"I.Learning Level"},{"id":"31617708","path":"/i-todo","label":"I.Todo"},{"id":"1909000424316900","path":"/isomorphic","label":"Isomorphic"},{"id":"802799037153734639588396446222664693705405932","path":"/ladder-of-functional-programming","label":"Ladder of functional programming"},{"id":"1294414228","path":"/lenses","label":"Lenses"},{"id":"30465020819196093204290850736405938521563610222","path":"/m-functional-programming-language","label":"M.Functional Programming Language"},{"id":"38101477","path":"/monad","label":"Monad"},{"id":"3358933878485104587","path":"/pipe-operator","label":"Pipe operator"},{"id":"94214871282704882","path":"/product-type","label":"Product type"},{"id":"2783875188712946","path":"/result-type","label":"Result type"},{"id":"62802240242","path":"/sum-type","label":"Sum type"},{"id":"14205122891733036004613362988882690","path":"/t-interface-note-template","label":"T.Interface Note Template"}]}
+    let nodesData = graphData.nodes;
+    let linksData = graphData.edges;
+
+    const nodeSize = {};
+
+    const updateNodeSize = () => {
+      nodesData.forEach((el) => {
+        let weight =
+          3 *
+          Math.sqrt(
+            linksData.filter((l) => l.source === el.id || l.target === el.id)
+              .length + 1
+          );
+        if (weight < MINIMAL_NODE_SIZE) {
+          weight = MINIMAL_NODE_SIZE;
+        } else if (weight > MAX_NODE_SIZE) {
+          weight = MAX_NODE_SIZE;
+        }
+        nodeSize[el.id] = weight;
+      });
+    };
+
+    const onClick = (d) => {
+      window.location = d.path
+    };
+
+    const onMouseover = function (d) {
+      const relatedNodesSet = new Set();
+      linksData
+        .filter((n) => n.target.id == d.id || n.source.id == d.id)
+        .forEach((n) => {
+          relatedNodesSet.add(n.target.id);
+          relatedNodesSet.add(n.source.id);
+        });
+
+      node.attr("class", (node_d) => {
+        if (node_d.id !== d.id && !relatedNodesSet.has(node_d.id)) {
+          return "inactive";
+        }
+        return "";
+      });
+
+      link.attr("class", (link_d) => {
+        if (link_d.source.id !== d.id && link_d.target.id !== d.id) {
+          return "inactive";
+        }
+        return "";
+      });
+
+      link.attr("stroke-width", (link_d) => {
+        if (link_d.source.id === d.id || link_d.target.id === d.id) {
+          return STROKE * 4;
+        }
+        return STROKE;
+      });
+      text.attr("class", (text_d) => {
+        if (text_d.id !== d.id && !relatedNodesSet.has(text_d.id)) {
+          return "inactive";
+        }
+        return "";
+      });
+    };
+
+    const onMouseout = function (d) {
+      node.attr("class", "");
+      link.attr("class", "");
+      text.attr("class", "");
+      link.attr("stroke-width", STROKE);
+    };
+
+    const sameNodes = (previous, next) => {
+      if (next.length !== previous.length) {
+        return false;
+      }
+
+      const map = new Map();
+      for (const node of previous) {
+        map.set(node.id, node.label);
+      }
+
+      for (const node of next) {
+        const found = map.get(node.id);
+        if (!found || found !== node.title) {
+          return false;
+        }
+      }
+
+      return true;
+    };
+
+    const sameEdges = (previous, next) => {
+      if (next.length !== previous.length) {
+        return false;
+      }
+
+      const set = new Set();
+      for (const edge of previous) {
+        set.add(`${edge.source.id}-${edge.target.id}`);
+      }
+
+      for (const edge of next) {
+        if (!set.has(`${edge.source}-${edge.target}`)) {
+          return false;
+        }
+      }
+
+      return true;
+    };
+
+    const graphWrapper = document.getElementById('graph-wrapper')
+    const element = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    element.setAttribute("width", graphWrapper.getBoundingClientRect().width);
+    element.setAttribute("height", window.innerHeight * 0.8);
+    graphWrapper.appendChild(element);
+
+    const reportWindowSize = () => {
+      element.setAttribute("width", window.innerWidth);
+      element.setAttribute("height", window.innerHeight);
+    };
+
+    window.onresize = reportWindowSize;
+
+    const svg = d3.select("svg");
+    const width = Number(svg.attr("width"));
+    const height = Number(svg.attr("height"));
+    let zoomLevel = 1;
+
+    const simulation = d3
+      .forceSimulation(nodesData)
+      .force("forceX", d3.forceX().x(width / 2))
+      .force("forceY", d3.forceY().y(height / 2))
+      .force("charge", d3.forceManyBody())
+      .force(
+        "link",
+        d3
+          .forceLink(linksData)
+          .id((d) => d.id)
+          .distance(70)
+      )
+      .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("collision", d3.forceCollide().radius(80))
+      .stop();
+
+    const g = svg.append("g");
+    let link = g.append("g").attr("class", "links").selectAll(".link");
+    let node = g.append("g").attr("class", "nodes").selectAll(".node");
+    let text = g.append("g").attr("class", "text").selectAll(".text");
+
+    const resize = () => {
+      if (d3.event) {
+        const scale = d3.event.transform;
+        zoomLevel = scale.k;
+        g.attr("transform", scale);
+      }
+
+      const zoomOrKeep = (value) => (zoomLevel >= 1 ? value / zoomLevel : value);
+
+      const font = Math.max(Math.round(zoomOrKeep(FONT_SIZE)), 1);
+
+      text.attr("font-size", (d) => font);
+      text.attr("y", (d) => d.y - zoomOrKeep(FONT_BASELINE) + 8);
+      link.attr("stroke-width", zoomOrKeep(STROKE));
+      node.attr("r", (d) => {
+        return zoomOrKeep(nodeSize[d.id]);
+      });
+      svg
+        .selectAll("circle")
+        .filter((_d, i, nodes) => d3.select(nodes[i]).attr("active"))
+        .attr("r", (d) => zoomOrKeep(ACTIVE_RADIUS_FACTOR * nodeSize[d.id]));
+    };
+
+    const ticked = () => {
+      node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+      text
+        .attr("x", (d) => d.x)
+        .attr("y", (d) => d.y - (FONT_BASELINE - nodeSize[d.id]) / zoomLevel);
+      link
+        .attr("x1", (d) => d.source.x)
+        .attr("y1", (d) => d.source.y)
+        .attr("x2", (d) => d.target.x)
+        .attr("y2", (d) => d.target.y);
+    };
+
+    const restart = () => {
+      updateNodeSize();
+      node = node.data(nodesData, (d) => d.id);
+      node.exit().remove();
+      node = node
+        .enter()
+        .append("circle")
+        .attr("r", (d) => {
+          return nodeSize[d.id];
+        })
+        .on("click", onClick)
+        .on("mouseover", onMouseover)
+        .on("mouseout", onMouseout)
+        .merge(node);
+
+      link = link.data(linksData, (d) => `${d.source.id}-${d.target.id}`);
+      link.exit().remove();
+      link = link.enter().append("line").attr("stroke-width", STROKE).merge(link);
+
+      text = text.data(nodesData, (d) => d.label);
+      text.exit().remove();
+      text = text
+        .enter()
+        .append("text")
+        .text((d) => shorten(d.label.replace(/_*/g, ""), MAX_LABEL_LENGTH))
+        .attr("font-size", `${FONT_SIZE}px`)
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "central")
+        .on("click", onClick)
+        .on("mouseover", onMouseover)
+        .on("mouseout", onMouseout)
+        .merge(text);
+
+      node.attr("active", (d) => isCurrentPath(d.path) ? true : null);
+      text.attr("active", (d) => isCurrentPath(d.path) ? true : null);
+
+      simulation.nodes(nodesData);
+      simulation.force("link").links(linksData);
+      simulation.alpha(1).restart();
+      simulation.stop();
+
+      for (let i = 0; i < TICKS; i++) {
+        simulation.tick();
+      }
+
+      ticked();
+    };
+
+    const zoomHandler = d3.zoom().scaleExtent([0.2, 3]).on("zoom", resize);
+
+    zoomHandler(svg);
+    restart();
+
+    function isCurrentPath(notePath) {
+      return window.location.pathname.includes(notePath)
+    }
+
+    function shorten(str, maxLen, separator = ' ') {
+      if (str.length <= maxLen) return str;
+      return str.substr(0, str.lastIndexOf(separator, maxLen)) + '...';
+    }
+  </script>
+</div>
+
+</main>
+      <footer>This is the footer. Include anything you'd like here, like a link to an <a class="internal-link" href="/about">About</a> page.
+</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      iframe.src = event.target.href
+      iframe.onload = function() {
+        tooltipContentHtml = ''
+        tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+        tooltipContent.innerHTML = tooltipContentHtml
+
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('touchend', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('touchend', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
+
+  </body>
+</html>

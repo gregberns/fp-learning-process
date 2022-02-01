@@ -1,7 +1,7 @@
 ---
 title: 2 - Advanced Beginner
 ---
-[[(Learning Level)]],
+[[I.Learning Level]],
 
 
 ### CONCEPTS

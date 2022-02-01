@@ -1,7 +1,7 @@
 ---
 title: 5 - Expert
 ---
-[[(Learning Level)]],
+[[I.Learning Level]],
 
 
 ### CONCEPTS
@@ -13,7 +13,7 @@ title: 5 - Expert
 * Category Theory
 * Graph Reduction
 * Higher-Order Abstract Syntax
-* Compiler Design for Functional Languages
+* Compiler Design for [[M.Functional Programming Language]]s
 * Profunctor Optics
 
 ### SKILLS

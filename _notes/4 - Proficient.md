@@ -1,7 +1,7 @@
 ---
 title: 4 - Proficient
 ---
-[[(Learning Level)]],
+[[I.Learning Level]],
 
 ### CONCEPTS
 * Codata

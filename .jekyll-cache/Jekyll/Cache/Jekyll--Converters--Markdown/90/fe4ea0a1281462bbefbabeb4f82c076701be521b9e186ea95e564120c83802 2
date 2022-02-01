@@ -1,0 +1,30 @@
+I"i<p>Used to “tag” notes as being members of a set of notes under construction or in need of editing/revision.</p>
+
+<h2 id="properties">Properties</h2>
+<ul>
+  <li>$n \rightarrow I \implies n \text{ has an internal task}$</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<p>Ex:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Example Note</span>
+<span class="nn">---</span>
+
+This is an example note
+
+<span class="gu">## Implements:</span>
+<span class="p">
+-</span> <span class="nt">&lt;span</span> <span class="na">title=</span><span class="s">'There is no note that matches this link.'</span> <span class="na">class=</span><span class="s">'invalid-link'</span><span class="nt">&gt;</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>[[<span class="nt">&lt;/span&gt;</span>  (Atomic)  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>]]<span class="nt">&lt;/span&gt;&lt;/span&gt;</span>
+<span class="p">-</span> <span class="nt">&lt;span</span> <span class="na">title=</span><span class="s">'There is no note that matches this link.'</span> <span class="na">class=</span><span class="s">'invalid-link'</span><span class="nt">&gt;</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>[[<span class="nt">&lt;/span&gt;</span>  (TODO)  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>]]<span class="nt">&lt;/span&gt;&lt;/span&gt;</span> : Refactor note to be atomic. (It's too long right now)
+<span class="p">-</span> <span class="nt">&lt;span</span> <span class="na">title=</span><span class="s">'There is no note that matches this link.'</span> <span class="na">class=</span><span class="s">'invalid-link'</span><span class="nt">&gt;</span>  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>[[<span class="nt">&lt;/span&gt;</span>  (TODO)  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">'invalid-link-brackets'</span><span class="nt">&gt;</span>]]<span class="nt">&lt;/span&gt;&lt;/span&gt;</span> : Read through and link to 
+
+<span class="gu">## Explication</span>
+
+orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend, quam nec luctus hendrerit, magna dolor sagittis nisi, eu molestie justo lectus a mauris. Mauris at risus at purus porta euismod elementum id massa. Ut id nisl leo. Morbi sodales ultricies fermentum. Nunc malesuada auctor ipsum. Quisque sit amet gravida tortor, ac aliquam risus. Vestibulum vitae congue sem.
+
+Sed sapien nulla, pharetra vitae turpis at, ornare cursus tellus. Curabitur sed pharetra velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam a est velit. Curabitur volutpat augue sit amet est fringilla, nec blandit elit elementum. Sed sem leo, convallis et ipsum sed, ornare eleifend orci. Nunc cursus nunc tincidunt dui commodo semper. Aenean eget metus vehicula, ultricies orci at, ullamcorper nisl. Donec leo urna, rhoncus non lacus ac, vulputate porta massa. Quisque sit amet rhoncus mi. In hac habitasse platea dictumst. Integer vel velit nec sem vulputate euismod. Fusce ultricies auctor leo, facilisis laoreet nisi commodo at. Morbi maximus iaculis convallis.
+</code></pre></div></div>
+
+:ET
