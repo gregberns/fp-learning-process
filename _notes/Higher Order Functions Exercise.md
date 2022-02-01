@@ -1,6 +1,11 @@
 ---
+title: Higher Order Functions Exercise
 ---
 
-# Higher Order Functions
+Exercise designed to teach [[Higher Order Function]]s.
 
-[[I.Exercise]]
+[[I.Exercise]],
+
+---
+
+[[I.Todo]] : Write

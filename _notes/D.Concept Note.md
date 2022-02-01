@@ -1,4 +1,5 @@
 ---
 title: D.Concept Note
 ---
-[[I.Todo]]
+
+[[I.Todo]] : Write

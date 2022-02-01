@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Monad.md",
+            "file": "Sum Type.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "1 -",
+                "query": "Lens",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monad.md",
+                "file": "Sum Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b203b32d443676bc",
   "lastOpenFiles": [
+    "Sum Type.md",
+    "Pipe Operator.md",
+    "Product Type.md",
     "Monad.md",
-    "Lenses.md",
-    "Higher Order Function.md",
-    "D.Template Note.md",
-    "D.Proposition Note.md",
-    "D.MOC Note.md",
-    "D.Interface Note.md",
-    "Algebraic Data Type.md",
-    "5 - Expert.md",
-    "4 - Proficient.md"
+    "M.Functional Programming Language.md",
+    "Lens.md",
+    "Isomorphic.md",
+    "I.Todo.md",
+    "I.Exercise.md",
+    "I.External.md"
   ]
 }

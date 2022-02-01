@@ -1,9 +1,10 @@
 ---
+title: Result Type
 ---
 
-# Result Type
-
 `Result` is used to represent "Either a thing succeded with a value or failed with an error".
+
+---
 
 The `Result` type is a variant of the [[Either Type | `Either` type]], which is a [[Sum Type]]. `Result` is more specific (more powerful, less general), `Either` is more general, less powerful. 
 

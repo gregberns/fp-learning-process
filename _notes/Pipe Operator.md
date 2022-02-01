@@ -1,9 +1,10 @@
 ---
+title: Pipe Operator
 ---
 
-# Pipe Operator
+The pipe operator (`|>`) applies the left value to the function on the right as the last parameter.
 
-The operator applies the left value to the function on the right as the last parameter.
+---
 
 ```
 let add: int => int => int = a => b => a + b

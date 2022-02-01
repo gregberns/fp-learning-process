@@ -1,7 +1,10 @@
 ---
+title: Monad
 ---
 
-# Monad
+[[I.Todo]] : Write blurb
+
+---
 
 A monad exists, generally when it implements `bind` and either `return` or `pure` (we'll use `pure`):
 

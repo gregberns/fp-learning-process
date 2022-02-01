@@ -4,6 +4,7 @@ title: D.ROOT
 
 This is the *root* of the [[D.Documentation Note|Documentation Notes]].
 
+---
 
 ## Note types
 

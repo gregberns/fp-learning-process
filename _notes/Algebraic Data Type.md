@@ -1,12 +1,13 @@
 ---
+title: Algebraic Data Type
 ---
-
-# Algebraic Data Types
 
 There are two types of Algebraic Data Types, also refered to as ADTs
 
 * Sum types
 * Product Types
+
+---
 
 Examples:
 

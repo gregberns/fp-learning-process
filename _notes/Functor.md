@@ -1,11 +1,13 @@
 ---
+title: Functor
 ---
-
-#	Functor
 
 Haskell Functor signature: `Functor f => (a -> b) -> f a -> f b`
 
 Where `f` is a Functor, `(a -> b)` is a function that transforms `a` to `b`, and takes an `f a` (Functor of type `a`) and returns an `f b` (Functor of `b`).
+
+---
+## Example (Option)
 
 This is an example of a functor called `Option`, you'll also hear it referred to as the `maybe` data type. `Option` is an [[Algebraic Data Type| Algebraic Data Type or ADT]], specifically it is a [[Sum Type]].
 

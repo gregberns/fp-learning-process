@@ -1,11 +1,12 @@
 ---
+title: Lens
 ---
-
-# Lenses
 
 Lenses support accessing and modfying immutable data structures, especially nested data structures that would otherwise be difficult to access and modify. 
 
 Lenses are a subset of [[Optics]].
+
+---
 
 ```hs
 data Lens a b = Lens (a -> b -> a) (a -> b)

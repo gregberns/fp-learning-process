@@ -1,9 +1,10 @@
 ---
+title: Isomorphic
 ---
 
-# Isomorphic
-
 If two types are isomorphic, there exists a mapping between the types, so that they can be mapped from `A` to `B` and back to `A` with no data lost.
+
+---
 
 For example:
 

@@ -25,5 +25,5 @@ A level on the [[Ladder of Functional Programming]].
 * Separate decision from effects
 * Write a simple custom lawful monad
 * Write production medium-sized projects
-* Use lenses & prisms to manipulate data
+* Use [[Lens|Lenses]] & prisms to manipulate data
 * Simplify types by hiding irrelevant data with existentials

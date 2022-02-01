@@ -1,5 +1,5 @@
 ---
-title: Counting the Values in a Type
+title: Algebra of Algebraic Data Types
 ---
 
 ## Counting the Values in a Type 
