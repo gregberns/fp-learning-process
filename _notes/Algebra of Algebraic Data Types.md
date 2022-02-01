@@ -1,4 +1,5 @@
 ---
+title: Counting the Values in a Type
 ---
 
 ## Counting the Values in a Type 
@@ -7,7 +8,7 @@ Possible values in a type
 
 [This is a good overview](https://gist.github.com/gregberns/5e9da0c95a9a8d2b6338afe69310b945) on how types can be converted to an algebra which allows us to count the potential values or possibilities of a type.
 
-
+---
 
 `type Unit = Unit` - this is generally the type that represents 1 value. It is, and can only be one value.
 

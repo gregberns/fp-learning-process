@@ -26,7 +26,7 @@ A [[D.Documentation Note]] should be named and titled `I.*`. Ex: [[I.Todo]]
 An [[D.MOC Note]]  should be named and titled `M.*`. Ex: [[M.Functional Programming Language]]
 
 ## Template Notes
-A [[D.Template Note]] snould be named and titled `T.*`. Ex: [[T.Interface Note Template]]
+A [[D.Template Note]] snould be named and titled `T.*`. Ex: [[I.Interface Note Template]]
 
 ## Concept Notes
 

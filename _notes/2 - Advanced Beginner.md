@@ -1,8 +1,10 @@
 ---
 title: 2 - Advanced Beginner
 ---
-[[I.Learning Level]],
 
+A level on the [[Ladder of Functional Programming]].
+
+---
 
 ### CONCEPTS
 * Algebraic Data Types

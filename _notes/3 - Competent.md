@@ -1,7 +1,10 @@
 ---
 title: 3 - Competent
 ---
-[[I.Learning Level]],
+
+A level on the [[Ladder of Functional Programming]].
+
+---
 
 ### CONCEPTS
 * Generalized Algebraic Data Types

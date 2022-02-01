@@ -19,9 +19,9 @@ This is an example note
 
 ## Implements:
 
-- [[(Atomic)]]
-- [[(TODO)]] : Refactor note to be atomic. (It's too long right now)
-- [[(TODO)]] : Read through and link to 
+- [[I.Atomic]]
+- [[I.Todo] : Refactor note to be atomic. (It's too long right now)
+- [[I.Todo]] : Read through and link to 
 
 ## Explication
 

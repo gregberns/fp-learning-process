@@ -1,8 +1,10 @@
 ---
 title: 5 - Expert
 ---
-[[I.Learning Level]],
 
+A level on the [[Ladder of Functional Programming]].
+
+---
 
 ### CONCEPTS
 * High-Performance

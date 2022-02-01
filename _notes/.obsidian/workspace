@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "657c0c3d808698ca",
+        "id": "b203b32d443676bc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "I.Learning Level.md",
+            "file": "Monad.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Programming language",
+                "query": "1 -",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I.Learning Level.md",
+                "file": "Monad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "657c0c3d808698ca",
+  "active": "b203b32d443676bc",
   "lastOpenFiles": [
-    "I.Learning Level.md",
+    "Monad.md",
+    "Lenses.md",
     "Higher Order Function.md",
-    "I.Exercise.md",
-    "Functor.md",
+    "D.Template Note.md",
     "D.Proposition Note.md",
     "D.MOC Note.md",
-    "D.Template Note.md",
-    "D.ROOT.md",
-    "D.Concept Note.md",
-    "D.Note Naming Conventions.md"
+    "D.Interface Note.md",
+    "Algebraic Data Type.md",
+    "5 - Expert.md",
+    "4 - Proficient.md"
   ]
 }

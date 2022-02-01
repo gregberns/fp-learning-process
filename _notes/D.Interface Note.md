@@ -4,7 +4,7 @@ title: D.Interface Notes
 
 A note interface $I$ describes a set of properties and behaviors that a note $n$ should implement. 
 
-## Explication
+---
 
 If there exists a link from $n$ to $I$, $n$ is said to *implement* $I$. In other words, the author of $n$ has committed to write $n$ in a manner satisfying the requirements defined by $I$. 
 
@@ -17,7 +17,7 @@ It is up to authors and maintainers to ensure that their notes truly satisfy the
 
 ## Template
 
-Use this [[T.Interface Note Template|template]] to create notes of this type.
+Use this [[I.Interface Note Template|template]] to create notes of this type.
 
 ## Why note interfaces?
 
@@ -28,4 +28,3 @@ Use this [[T.Interface Note Template|template]] to create notes of this type.
 -	Interfaces semantically label links to from notes them as `n implements I` relationships, helping the reader.
 -	Interfaces allow for ad-hoc organization for a knowledge mangagement system. 
 	-	Circumvents `"Let's Think of a Perfect Structure for our System Before We Start Writing!"`-Syndrome.
-

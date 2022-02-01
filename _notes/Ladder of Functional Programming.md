@@ -1,9 +1,21 @@
 ---
+title: Ladder of Functional Programming
 ---
 
 # Ladder of Functional Programming
 
 This training will use the [Standardized Ladder of Functional Programming](https://twitter.com/lambda_conf/status/803695008100466688) to guide what is covered and in which order.
+
+---
+## The Levels
+
+- [[1 - Novice Level]]
+- [[2 - Advanced Beginner]]
+- [[3 - Competent]]
+- [[4 - Proficient]]
+- [[5 - Expert]]
+
+## The Original Ladder
 
 > The names were imported from the Dreyfus model of skill acquisition, but we will be making a few short-term tweaks & refactor next year
 > [Source](https://twitter.com/lambda_conf/status/804439435261546496?s=20&t=D6JWPrj-pPB91npjTPToiA)

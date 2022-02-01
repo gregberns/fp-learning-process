@@ -1,8 +1,10 @@
 ---
 title: 1 - Novice Level
 ---
-[[I.Learning Level]],
 
+A level on the [[Ladder of Functional Programming]].
+
+---
 
 ### CONCEPTS
 * Immutable Data
