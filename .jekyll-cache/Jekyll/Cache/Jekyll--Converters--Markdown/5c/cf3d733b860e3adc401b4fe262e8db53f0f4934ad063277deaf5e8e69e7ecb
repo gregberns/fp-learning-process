@@ -1,0 +1,14 @@
+I"�<p><code class="language-plaintext highlighter-rouge">Result</code> is used to represent “Either a thing succeded with a value or failed with an error”.</p>
+
+<hr />
+
+<p>The <code class="language-plaintext highlighter-rouge">Result</code> type is a variant of the <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Either Type | <code class="language-plaintext highlighter-rouge">Either</code> type  <span class="invalid-link-brackets">]]</span></span>, which is a <a class="internal-link" href="/sum-type">Sum Type</a>. <code class="language-plaintext highlighter-rouge">Result</code> is more specific (more powerful, less general), <code class="language-plaintext highlighter-rouge">Either</code> is more general, less powerful.</p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">Either</code> has a <code class="language-plaintext highlighter-rouge">Right</code> and <code class="language-plaintext highlighter-rouge">Left</code>, <code class="language-plaintext highlighter-rouge">Result</code> has a success (<code class="language-plaintext highlighter-rouge">Ok</code>) and failure (<code class="language-plaintext highlighter-rouge">Error</code>) cases.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type Result =
+	| Ok(a)
+	| Error(e)
+</code></pre></div></div>
+
+:ET

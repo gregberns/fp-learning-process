@@ -1,7 +1,0 @@
-I"/<h1 id="product-type">Product Type</h1>
-
-<p>A Sum Type is an <a class="internal-link" href="/algebraic-data-type">Algebraic Data Type</a> that can be used to represent “this and that” type of structure. “And” is the key word - the type only contains both of the values.</p>
-
-<p>Tuple
-Record</p>
-:ET

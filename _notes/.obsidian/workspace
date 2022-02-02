@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sum Type.md",
+            "file": "I.Exercise.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sum Type.md",
+                "file": "I.Exercise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b203b32d443676bc",
   "lastOpenFiles": [
-    "Sum Type.md",
-    "Pipe Operator.md",
-    "Product Type.md",
-    "Monad.md",
-    "M.Functional Programming Language.md",
-    "Lens.md",
-    "Isomorphic.md",
-    "I.Todo.md",
     "I.Exercise.md",
-    "I.External.md"
+    "D.Template Note.md",
+    "D.Note Naming Conventions.md",
+    "D.INDEX.md",
+    "M.INDEX.md",
+    "Product Type.md",
+    "Result Type.md",
+    "Sum Type.md",
+    "Ladder of Functional Programming.md",
+    "I.Todo.md"
   ]
 }

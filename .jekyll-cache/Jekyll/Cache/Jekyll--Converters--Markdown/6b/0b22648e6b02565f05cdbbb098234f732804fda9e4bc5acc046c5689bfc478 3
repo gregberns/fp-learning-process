@@ -1,0 +1,16 @@
+I"<h2 id="counting-the-values-in-a-type">Counting the Values in a Type</h2>
+
+<p>Possible values in a type</p>
+
+<p><a href="https://gist.github.com/gregberns/5e9da0c95a9a8d2b6338afe69310b945">This is a good overview</a> on how types can be converted to an algebra which allows us to count the potential values or possibilities of a type.</p>
+
+<hr />
+
+<p><code class="language-plaintext highlighter-rouge">type Unit = Unit</code> - this is generally the type that represents 1 value. It is, and can only be one value.</p>
+
+<p><code class="language-plaintext highlighter-rouge">type Bool = True | False</code> can be two values: <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>. The quantity of values in type <code class="language-plaintext highlighter-rouge">Bool</code> are 2.</p>
+
+<p><code class="language-plaintext highlighter-rouge">type Foo = Bar | Baz</code> is also 2 values, so if we created a mapping between <code class="language-plaintext highlighter-rouge">Bar</code> and <code class="language-plaintext highlighter-rouge">True</code>, and <code class="language-plaintext highlighter-rouge">Baz</code> and False, both data structures represent the same quantity of values (2). Because they can be mapped back and forth, this means they are <a class="internal-link" href="/isomorphic">isomorphic</a> - or no data is lost between the mapping.</p>
+
+<p>This is helpful, because if you know <code class="language-plaintext highlighter-rouge">Foo</code> is isomorphic to <code class="language-plaintext highlighter-rouge">Bool</code>, and you know <code class="language-plaintext highlighter-rouge">Bool</code>s value count is 2, then you also know <code class="language-plaintext highlighter-rouge">Foo</code>s count is 2.</p>
+:ET

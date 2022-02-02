@@ -1,0 +1,19 @@
+I"*<p>There are two types of Algebraic Data Types, also refered to as ADTs</p>
+
+<ul>
+  <li>Sum types</li>
+  <li>Product Types</li>
+</ul>
+
+<hr />
+
+<p>Examples:</p>
+
+<ul>
+  <li>Sum Type: <code class="language-plaintext highlighter-rouge">type Pair = Fst Int | Snd String</code></li>
+  <li>Product Type: <code class="language-plaintext highlighter-rouge">type Pair = P Int String</code></li>
+</ul>
+
+<p>These structures can be combined together to create more complex and nested data structures to represent most any data structures needed in computation.</p>
+
+:ET
