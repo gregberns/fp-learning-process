@@ -1,16 +1,17 @@
 {
   "main": {
-    "id": "4ebade48d093dc3d",
+    "id": "c8204b3647714ce4",
     "type": "split",
     "children": [
       {
-        "id": "0ed310b767ebbd5e",
+        "id": "b203b32d443676bc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/(Exercise).md",
-            "mode": "source"
+            "file": "I.Exercise.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -18,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6769717575797438",
+    "id": "e7ab19907ea51483",
     "type": "split",
     "children": [
       {
-        "id": "5e8300975b7e77ad",
+        "id": "08545fff5acf9efe",
         "type": "tabs",
         "children": [
           {
-            "id": "2d993330b0e56e63",
+            "id": "1ad5a301527c95ae",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,12 +35,12 @@
             }
           },
           {
-            "id": "b3e22661e115d392",
+            "id": "59dc35589c0ad884",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Lens",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,27 +56,27 @@
     "width": 300
   },
   "right": {
-    "id": "38c0d03699624b56",
+    "id": "1c72e8b1f0f8389a",
     "type": "split",
     "children": [
       {
-        "id": "cf15c35a705d128b",
+        "id": "d2f71ddb040ae15b",
         "type": "tabs",
         "children": [
           {
-            "id": "20e74a065458302c",
+            "id": "0ff69e5b37d048ed",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/(Exercise).md",
+                "file": "I.Exercise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -83,19 +84,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "0ed310b767ebbd5e",
+  "active": "b203b32d443676bc",
   "lastOpenFiles": [
-    "_notes/(Exercise).md",
-    "4 - Proficient.md",
-    "<ROOT>.md",
-    "<Interface Note>.md",
-    "<Concept Note>.md",
-    "(Learning Level).md",
-    "<Note Naming Conventions>.md",
-    "<Documentation Note>.md",
-    "README.md",
-    "(TODO).md"
+    "I.Exercise.md",
+    "D.Template Note.md",
+    "D.Note Naming Conventions.md",
+    "D.INDEX.md",
+    "M.INDEX.md",
+    "Product Type.md",
+    "Result Type.md",
+    "Sum Type.md",
+    "Ladder of Functional Programming.md",
+    "I.Todo.md"
   ]
 }
