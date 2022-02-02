@@ -1,2 +1,0 @@
-I"Œ<p>Haskell Functor signature: <code class="language-plaintext highlighter-rouge">Functor f =&gt; (a -&gt; b) -&gt; f a -&gt; f b</code></p>
-:ET

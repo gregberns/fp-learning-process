@@ -1,8 +1,0 @@
-I"ã<p>All notes should have a <code class="language-plaintext highlighter-rouge">*.md</code> file name, where <code class="language-plaintext highlighter-rouge">*</code> is the name of the <code class="language-plaintext highlighter-rouge">title:</code> field in the YAML front-matter. Ex:</p>
-<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">&lt;!-- Note.md --&gt;
----
-title: Note
----
-</span>...
-</code></pre></div></div>
-:ET
